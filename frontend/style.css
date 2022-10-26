@@ -129,7 +129,7 @@ h1 {
       font-size: 16px;
       left: 20px;
       margin-left: 20px;
-      word-wrap: break-word;
+      word-wrap: break-word !important;
     }
   }
 
