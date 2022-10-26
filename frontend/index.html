@@ -4,9 +4,39 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200&display=swap" rel="stylesheet">
 	<title>This is FRONTEND</title>
 </head>
 <body>
-	<div id="root"></div>
+	<div id="root">
+		<div class="container">
+			<div><h1>Visszajelzés</h1></div>
+			<div> <input class="input-field" type="text" id="fname" name="fname" placeholder="Tárgy"></div>
+
+			<div>
+				<textarea class="textarea-field" id="textarea" name="textarea" placeholder="Megjegyzés"></textarea></div>
+
+				<div class="data-text-container">
+					<input type="checkbox" name="data-check" value="Adatkezeles">
+					<label class="data-text" for="adatkezeles"> Elolvastam és elfogadtam az <span class="data-underline">Adatkezelési Tájékoztatót</span></label>
+				</div>
+
+				<div>
+					<button class="button" type="button">Mentés</button>
+
+				</div>
+
+		</div>
+			
+		
+
+
+	</div>
 </body>
 </html>

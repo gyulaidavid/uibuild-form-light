@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+
+  background-color: #f7e4d4;
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 400;
+  color: #467745;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #467745;
+  font-weight: 400; 
+
+  width: 480px;
+  height: 64px;
+  margin-bottom: 20px;
+ 
+  border: none;
+}
+
+.input-field::placeholder {
+  font-weight: 400; 
+  padding-left: 20px;
+  /* font-size: medium; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.textarea-field {
+  font-family: "Montserrat", sans-serif;
+  font-size: 500;
+  font-weight: 400;
+  width: 480px;
+  height: 120px;
+  border: none;
+  resize: none;
+  color: #467745;
+}
+
+.data-text-container{
+    margin-top: 20px;
+
+}
+
+.data-text {
+    font-family: "Montserrat", sans-serif;
+    color: #467745;
+    font-size: 16px;
+   }
+
+.data-text > .data-underline {
+    text-decoration: underline;
+}
+
+.textarea-field::placeholder {
+  /* font-weight: medium; ??? */
+  padding: 20px 20px;
+  font-size: 16px;
+  font-size: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+    font-family: "EB Garamond", serif;
+    font-size: 21px;
+    font-weight: 400;
+    width: 280px;
+    height: 80px;
+    background-color: #487745;
+    color: #f7e4d4;
+    margin-top: 40px;
+    border-radius: 50px;
+    border: none;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 520px) {
+  h1 {
+    font-size: 36px;
+    left: 0px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .input-field {
+    width: 100%-40px;
+    font-size: 16px;
+    left: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+    .textarea-field {
+      width: 100%-40px;
+      font-size: 16px;
+      left: 20px;
+      margin-left: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    .data-text {
+      font-size: 16px;
+      left: 20px;
+      margin-left: 20px;
+      word-wrap: break-word;
+    }
+  }
+
+
+
+  
